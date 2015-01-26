@@ -8,3 +8,8 @@ There are several variables that can be tested on a experimente like this, every
 
 Model for exit rate(Bouce) and conversion rate.
 ------------------------------------------------
+Exit rate and conversion rate can be moduled in the same way. One can take a Binomial approach to modul both Exit's and Conversions on a e-commerce platform.
+Assuming that we are using a Binomial distribution it make sense to have as conjugated prior a beta distribution. After some calculations, we define exit rate and conversion rate as the follow:
+$$
+\Theta(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
