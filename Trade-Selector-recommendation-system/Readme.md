@@ -3,4 +3,6 @@ The trade selector recommendation system was build using a two states Bayesian n
 The first step will be to identify if the trade that the user is looking for really starts with the letter that was typed.
 
 Example - Body Artist  - Tattoo Artist 
-\[ f_5 \]
+
+
+
